@@ -6,9 +6,10 @@
     <title>Tea Cozy</title>
     <link rel="stylesheet" href="resources/css/styles.css" type="text/css">
 </head>
-
+<!--I chose to be as semantic as possible with this page. I accidently had copilot reformat it at one
+    point, and every one of my classes ended up getting stripped away! XD -->
 <body>
-    <header class="flex-container"
+    <header class="flex-container"> <!--flex-container needed for header!-->
         <img src="resources/images/img-tea-cozy-logo.webp" alt="Tea Cozy Logo">
         <nav>
             <ul>
@@ -18,7 +19,7 @@
             </ul>
         </nav>
     </header>
-
+<!--Begin Main content below, no flex for main, mission section is only SECTION that needs a flex-container-->
     <main>
         <section id="mission" class="flex-container">
             <div>
@@ -30,6 +31,8 @@
         <section id="featured-tea">
             <h2>Tea of the Month</h2>
             <h4>What's Steeping at The Tea Cozy?</h4>
+<!--flex-container for teas is needed because of their pictured arrangement on the redline. Although pretty
+    redundant, I chose to add "alt=description" to the images.-->
             <div class="flex-container teas">
                 <div class="teas">
                     <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg"
@@ -61,6 +64,7 @@
 
         <section id="locations">
             <h2>Locations</h2>
+<!--locations need flex-container for proper aligning-->
             <div class="flex-container locations">
                 <div class="locations">
                     <h3>Downtown</h3>
