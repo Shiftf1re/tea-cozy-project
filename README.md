@@ -8,10 +8,14 @@
 
     ## Project Description
 
-    This project is a course lesson project from CodeCademy. It involves their lesson for Improved Styling with CSS. All resources have been provided by CodeCademy and the objective is to create this website with very minimal assistance.
+    This project is a course lesson project from CodeCademy. It involves their lesson for Improved Styling<br>
+    with CSS.<br>
+    All resources have been provided by CodeCademy and the objective is to create this website with very minimal assistance.
 
-    - My main intent with this project is to improve and continue building a portfolio of completed projects so I can eventually finish the entire Codecademy Front-End Engineering pathway.
+    - My main intent with this project is to improve and continue building a portfolio of completed projects<br>
+    so I can eventually finish the entire Codecademy Front-End Engineering pathway.
 
-    ### **Full Disclosure** - I am very very new to all of this and what it has to offer, so if there is any friendly advice to be given, I am all ears!
+    ### **Full Disclosure** - I am very very new to all of this and what it has to offer, so if there is any<br>
+    friendly advice to be given, I am all ears!
 
 
