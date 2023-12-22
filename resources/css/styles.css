@@ -13,28 +13,27 @@ a {
     color: seashell;
 }
 
-h2,
-h3,
-h4 {
+h2, h3, h4 {
     margin: 0;
     padding: 10px;
 }
 
 .flex-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Header Section */
 
-header {
+header.flex-container {
     width: 100%;
     position: fixed;
     z-index: 1;
     height: 69px;
     background-color: black;
     border-bottom: 1px solid seashell;
+    display: flex;
     align-items: center;
 }
 
@@ -48,12 +47,18 @@ nav {
     flex-grow: 1;
 }
 
-nav span {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
     display: inline-block;
     padding: 20px 10px;
 }
 
-/* Main Section */
+/* Main */
 
 main {
     padding-top: 69px;
@@ -62,7 +67,7 @@ main {
     margin: auto;
 }
 
-/* Mission Section */
+/* Mission */
 
 #mission {
     height: 700px;
@@ -70,13 +75,13 @@ main {
     padding-top: 70px;
 }
 
-#mission .content {
+#mission div {
     margin: auto;
     background-color: black;
     width: 100%;
 }
 
-/* Teas Section */
+/* Teas */
 
 #featured-tea {
     height: 700px;
@@ -85,17 +90,20 @@ main {
     padding-top: 70px;
 }
 
-.teas {
+#featured-tea .flex-container teas {
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.teas img {
+#featured-tea img {
     height: 200px;
     margin: 10px;
     display: block;
 }
 
-.teas span {
+#featured-tea p {
     display: block;
     padding: 5px;
     font-weight: bold;
@@ -110,12 +118,14 @@ main {
     padding-top: 70px;
 }
 
-#locations .flex-container {
+#locations .flex-container locations {
     margin: auto;
     width: 1100px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.locations {
+#locations div div {
     opacity: 1.0;
     padding: 10px;
     margin: 5px 20px;
@@ -126,13 +136,13 @@ main {
     justify-content: center;
 }
 
-/* Contact Section */
+/* Contact */
 
 #contact {
     height: 200px;
 }
 
-/* Footer Section */
+/* Footer */
 
 footer {
     text-align: left;
